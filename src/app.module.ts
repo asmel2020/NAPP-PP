@@ -5,6 +5,7 @@ import configuration from './config/configuration';
 
 @Module({
   imports: [AuthModule,ConfigModule.forRoot({
+    envFilePath: '.env',
     isGlobal: true,
     load: [configuration],
   })]
