@@ -1,9 +1,9 @@
 {
-  "name": "template-nest",
+  "name": "@asmel/npp",
   "version": "0.0.1",
   "description": "",
   "author": "",
-  "private": true,
+  "bin": "./bin/cli.js",
   "license": "UNLICENSED",
   "scripts": {
     "build": "nest build",
