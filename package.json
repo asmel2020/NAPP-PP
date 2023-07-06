@@ -1,9 +1,9 @@
 {
-  "name": "@asmel/create-npp-app",
+  "name": "napp",
   "version": "0.0.2",
-  "description": "",
-  "author": "",
-  "bin": "./bin/cli.js",
+  "description": "Nest auth template",
+  "author": "danny gonzalez",
+  "private": true,
   "license": "MIT",
   "repository": {
     "type": "git",
