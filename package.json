@@ -1,10 +1,14 @@
 {
-  "name": "template-nest",
-  "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "name": "napp",
+  "version": "0.0.3",
+  "description": "NAPP - Nest auth template",
+  "author": "danny gonzalez",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asmel2020/NAPP-REST"
+  },
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
@@ -19,7 +23,10 @@
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "prisma:g": "prisma generate",
-    "prisma:reset": "npx prisma migrate reset --force"
+    "prisma:reset": "npx prisma migrate reset --force",
+    "prisma:studio": "npx prisma studio",
+    "Db:start": "docker-compose up -d",
+    "DB:remove": "docker-compose down"
   },
   "dependencies": {
     "@nestjs/common": "^9.0.0",

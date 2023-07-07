@@ -1,73 +1,60 @@
+<h1 align="center">
+  create-napp-app
+</h1>
+
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+  Interactive CLI to start a Nest.js app.
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
-
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
+<p align="center">
+  Get started with the <a rel="noopener noreferrer" target="_blank" href="https://init.tips">NAPP</a> by running <code>npx create-napp-app@latest</code>
 </p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+<div align="center">
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+ [![NPM version][npm-image]][npm-url]
+[![Downloads][downloads-image]][npm-url]
 
-## Installation
+</div>
+
+## Table of contents
+
+- <a href="#about">The NAPP</a>
+- <a href="#getting-started">Getting Started</a>
+- <a href="#community">Community</a>
+
+<h2 id="about">The NAPP</h2>
+
+The _"NAPP"_  is a back-end development stack made by [Danny](https://github.com/asmel2020) focused on **in the rapid creation of back-end projects with Nest.js**. It consists of:
+
+- [Nest.js](https://nestjs.com/)
+- [Prisma](https://prisma.io)
+- [PostgreSQL](https://www.postgresql.org/)
+- [TypeScript](https://typescriptlang.org)
+- [Graphql.js](https://graphql.org/)
+- [JWT](https://jwt.io/)
+
+### So... what is `create-napp-app`? A template?
+
+Kind of? **create-napp-app** is a CLI built by seasoned Nest.js devs to streamline the setup of a modular. This means each piece is optional, and the "template" is generated based on your specific needs.
+
+After countless projects and many years on this tech, we have lots of opinions and insights. We’ve done our best to encode them into this CLI.
+
+<h2 id="getting-started">Getting Started</h2>
+
+To mount an application using `create-napp-app`, run the following command
+
+### npx
 
 ```bash
-$ yarn install
+npx create-napp-app@latest
 ```
 
-## Running the app
 
-```bash
-# development
-$ yarn run start
+<!-- For more advanced usage, check out the [CLI docs](). -->
 
-# watch mode
-$ yarn run start:dev
+<h2 id="community">Community</h2>
 
-# production mode
-$ yarn run start:prod
-```
+For help, discussion about best practices, or any other conversation that would benefit create-napp-app:
 
-## Test
-
-```bash
-# unit tests
-$ yarn run test
-
-# e2e tests
-$ yarn run test:e2e
-
-# test coverage
-$ yarn run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+[Join the NAPP Discord Server](#)
