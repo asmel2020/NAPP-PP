@@ -2,7 +2,7 @@
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
@@ -15,10 +15,10 @@ model User {
   email    String @unique
   password String
   isActive Boolean @default(true)
-  //role     Role    @default(USER)
+  role     Role    @default(USER)
 }
 
-//enum Role {
-//  ADMIN
-//  USER
-//}
+enum Role {
+  ADMIN
+  USER
+}
