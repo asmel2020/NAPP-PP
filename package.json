@@ -24,6 +24,7 @@
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "prisma:g": "prisma generate",
     "prisma:reset": "npx prisma migrate reset --force",
+    "prisma:studio": "npx prisma studio",
     "Db:start": "docker-compose up -d",
     "DB:remove": "docker-compose down"
   },
