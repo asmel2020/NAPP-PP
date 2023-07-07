@@ -25,7 +25,7 @@
     "prisma:g": "prisma generate",
     "prisma:reset": "npx prisma migrate reset --force",
     "prisma:studio": "npx prisma studio",
-    "Db:start": "docker-compose up -d",
+    "DB:start": "docker-compose up -d",
     "DB:remove": "docker-compose down"
   },
   "dependencies": {
